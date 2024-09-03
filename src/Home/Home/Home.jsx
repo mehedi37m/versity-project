@@ -1,3 +1,5 @@
+import Banner from "../Banner/Banner";
+import TopTeacher from "../TopTeacher/TopTeacher";
 
 
 
@@ -8,7 +10,8 @@ const Home = () => {
     return (
         <div>
             
-            {/* <Banner></Banner> */}
+            <Banner></Banner>
+            <TopTeacher></TopTeacher>
               
         </div>
     );

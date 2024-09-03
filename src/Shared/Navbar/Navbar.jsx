@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
+import { GoUnread } from "react-icons/go";
 import logo from "../../assets/logo.jpg";
 
 const NavBar = () => {
@@ -17,7 +17,7 @@ const NavBar = () => {
 
       <Link to="/dashboard/cart">
         <button className="btn btn-ghost">
-          <FaShoppingCart className="mr-2"></FaShoppingCart>
+          <GoUnread className="mr-2"></GoUnread>
           {/* <div className="badge badge-secondary">+{cart.length}</div> */}
         </button>
       </Link>
