@@ -30,7 +30,7 @@ const Banner = () => {
       >
         <SwiperSlide>
           <div className='relative'>
-          <img className='md:h-[600px] w-full' src="https://i.ibb.co/M6zyCQF/feliphe-schiarolli-hes6n-UC1-MVc-unsplash.jpg" />
+          <img className='md:h-[850px] w-full' src="https://i.ibb.co/M6zyCQF/feliphe-schiarolli-hes6n-UC1-MVc-unsplash.jpg" />
           <div className="absolute h-full rounded-xl flex items-center transform  left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
         <div data-aos="zoom-in-up"
      data-aos-easing="linear"
@@ -53,7 +53,7 @@ const Banner = () => {
         <SwiperSlide>
           
           <div className='relative'>
-          <img className='md:h-[600px] w-full' src="https://i.ibb.co/MGrXQL4/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg" />
+          <img className='md:h-[850px] w-full' src="https://i.ibb.co/MGrXQL4/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg" />
           <div className="absolute h-full rounded-xl flex items-center transform  left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
         <div data-aos="zoom-in-up"
      data-aos-easing="linear"
@@ -74,7 +74,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='relative'>
-          <img className='md:h-[600px] w-full' src="https://i.ibb.co/q1ZNP1R/arthur-lambillotte-Om8-Wd-Pm74-RM-unsplash.jpg" />
+          <img className='md:h-[850px] w-full' src="https://i.ibb.co/q1ZNP1R/arthur-lambillotte-Om8-Wd-Pm74-RM-unsplash.jpg" />
           <div className="absolute h-full rounded-xl flex items-center transform  left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
         <div data-aos="zoom-in-up"
      data-aos-easing="linear"
@@ -95,7 +95,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='relative'>
-          <img className='md:h-[600px] w-full' src="https://i.ibb.co/r6T3n7J/alam-kusuma-g7-O1rq-MVre-U-unsplash.jpg" />
+          <img className='md:h-[850px] w-full' src="https://i.ibb.co/r6T3n7J/alam-kusuma-g7-O1rq-MVre-U-unsplash.jpg" />
           <div className="absolute h-full rounded-xl flex items-center transform  left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
         <div data-aos="zoom-in-up"
      data-aos-easing="linear"

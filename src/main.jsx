@@ -9,7 +9,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     
       <div >
-        <div className="container  mx-auto">
+        <div className="">
           <RouterProvider router={Router} />
         </div>
       </div>

@@ -14,6 +14,12 @@ const NavBar = () => {
       <li>
         <Link to="/menu">Menu</Link>
       </li>
+      <li>
+        <Link to="/activity">Activity</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact</Link>
+      </li>
 
       <Link to="/dashboard/cart">
         <button className="btn btn-ghost">
@@ -25,8 +31,8 @@ const NavBar = () => {
   );
 
   return (
-    <div>
-      <div className="navbar fixed z-10 container bg-opacity-30 bg-black text-white">
+    <div className=" ">
+      <div className="navbar fixed z-10  bg-opacity-30 bg-black text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -60,6 +66,7 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
+       
       </div>
     </div>
   );
