@@ -8,6 +8,8 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import SplineScene from '../StudentWork/Spline';
+import SplineSce from './SplineSce';
 
 const Banner = () => {
     return (
@@ -29,7 +31,7 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className='relative'>
+          <div className='relative flex container'>
           <img className='md:h-[850px] w-full' src="https://i.ibb.co/M6zyCQF/feliphe-schiarolli-hes6n-UC1-MVc-unsplash.jpg" />
           <div className="absolute h-full rounded-xl flex items-center transform  left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
         <div data-aos="zoom-in-up"
@@ -45,6 +47,9 @@ const Banner = () => {
            </form>
                
             </div>
+        </div>
+        <div className='w-1/3 h-1/3'>
+         <SplineSce></SplineSce>
         </div>
     </div>
           </div>

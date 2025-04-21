@@ -1,12 +1,14 @@
 
-import program from '../../assets/program.jpg';
+// import program from '../../assets/program.jpg';
 import { Link } from "react-router-dom";
+import Spline from './Spline';
 
 const StudentWork = () => {
     return (
         <div className='px-4 lg:px-24 my-20 flex flex-col md:flex-row justify-between items-center gap-12'>
             <div className='md:w-1/2'>
-                <img src={program} alt="" className='rounded md:w-10/12' />
+            <Spline></Spline>
+                {/* <img src={program} alt="" className='rounded md:w-10/12' /> */}
             </div>
             <div className='md:w-1/2 space-y-6'>
                 <h1 className='text-5xl my-5 md:w-3/4 leading-snug'>CSE SEU  <span className='text-blue-700'>Student Branch!</span></h1>
