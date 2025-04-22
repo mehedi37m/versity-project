@@ -6,8 +6,8 @@ import Spline from './Spline';
 const StudentWork = () => {
     return (
         <div className='px-4 lg:px-24 my-20 flex flex-col md:flex-row justify-between items-center gap-12'>
-            <div className='md:w-1/2'>
-            <Spline></Spline>
+            <div className='md:w-1/2  '>
+            <Spline className="text-4xl" ></Spline>
                 {/* <img src={program} alt="" className='rounded md:w-10/12' /> */}
             </div>
             <div className='md:w-1/2 space-y-6'>
