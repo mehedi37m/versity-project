@@ -48,7 +48,7 @@ const Banner = () => {
                
             </div>
         </div>
-        <div className='w-1/3 h-1/3'>
+        <div className='w-[1400px] h-96'>
          <SplineSce></SplineSce>
         </div>
     </div>
