@@ -12,7 +12,7 @@ const StudentWork = () => {
             </div>
             <div className='md:w-1/2 space-y-6'>
                 <h1 className='text-5xl my-5 md:w-3/4 leading-snug'>CSE SEU  <span className='text-blue-700'>Student Branch!</span></h1>
-                <p className='mb-10 text-lg md:w-5/6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quae illum aspernatur vitae nihil dolorum quo quibusdam mollitia explicabo! Accusamus, omnis iusto voluptatibus deleniti illo aperiam quod eum expedita animi!</p>
+                <p className='mb-10 text-lg md:w-5/6'>Lorem ipsum dolor sit amet, consectetur adipisicing. Cupiditate quae illum aspernatur vitae nihil dolorum quo quibusdam mollitia explicabo! Accusamus, omnis iusto voluptatibus deleniti illo aperiam quod eum expedita animi!</p>
 
                 {/* stats */}
                 <div className='flex flex-col sm:flex-row justify-between gap-6 md:w-3/4 my-14'>
