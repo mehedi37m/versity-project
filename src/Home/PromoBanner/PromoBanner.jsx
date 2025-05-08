@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import promo from "../../assets/hello.jpg"
+import "./PromoBanner.css"
 
 
 const PromoBanner = () => {
@@ -9,7 +10,8 @@ const PromoBanner = () => {
                 <div className="md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6 leading-snug">2024 National Book Awards for Fiction Shortlist</h1>
 
-                    <Link to='/shop' className=' block' ><button className='bg-blue-700 text-white font-semibold px-5 py-2 rounded hover:bg-black transition-all duration-300'>Explore More</button></Link>
+                    
+                    <Link to='/shop' ><button className='bttn '>Explore More</button></Link>
                     
                 </div>
 
