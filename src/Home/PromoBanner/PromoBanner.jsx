@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import promo from "../../assets/hello.jpg"
 import "./PromoBanner.css"
+import ShapeBlur from "../../ShapeBlur/ShapeBlur";
+
 
 
 const PromoBanner = () => {
@@ -16,7 +18,18 @@ const PromoBanner = () => {
                 </div>
 
                 <div>
-                    <img src={promo} alt="" className="w-96 " />
+                    {/* <img src={promo} alt="" className="w-96 " /> */}
+                    <div style={{position: 'relative', height: '500px', overflow: 'hidden'}}>
+<ShapeBlur
+  variation={0}
+  pixelRatioProp={window.devicePixelRatio || 1}
+  shapeSize={1.5}
+  roundness={0.5}
+  borderSize={.05}
+  circleSize={.05}
+  circleEdge={1}
+/>
+</div>
                 </div>
             </div>
         </div>
