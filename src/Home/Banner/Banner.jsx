@@ -167,7 +167,7 @@ const Banner = () => {
                 </h1>
                 <p className="md:text-xl text-[10px]">
                   SEU Student Branch is a diverse and distinguished student
-                  organization at Southeast University of Science and Technology
+                  organization at Southeast University of Science
                   in Bangladesh.{" "}
                 </p>
                 <div className="flex justify-center">
